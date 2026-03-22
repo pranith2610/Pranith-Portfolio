@@ -13,11 +13,11 @@ const Contact = () => {
                         <div className="contact-details">
                             <div className="contact-item">
                                 <span className="contact-label">Email:</span>
-                                <a href="mailto:hello@pranithkumar.com" className="contact-link">hello@pranithkumar.com</a>
+                                <a href="mailto:pranithkumar0306@gmail.com" className="contact-link">pranithkumar0306@gmail.com</a>
                             </div>
                             <div className="contact-item">
                                 <span className="contact-label">Location:</span>
-                                <span>Available Worldwide</span>
+                                <span>Coimbatore</span>
                             </div>
                         </div>
 

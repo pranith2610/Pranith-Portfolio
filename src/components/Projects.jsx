@@ -9,21 +9,15 @@ const Projects = () => {
             link: '#'
         },
         {
-            title: 'AI Dashboard Analyzer',
-            description: 'Data visualization dashboard for AI models using Python backend and React frontend.',
-            tech: ['Python', 'FastAPI', 'React', 'Chart.js'],
+            title: 'ACIDS',
+            description: 'An AI-powered cybersecurity in industrial defense system.',
+            tech: ['AI / ML', 'Python', 'Cybersecurity'],
             link: '#'
         },
         {
-            title: 'Real-time Chat App',
-            description: 'Instant messaging application with WebSockets, private rooms, and read receipts.',
-            tech: ['MERN', 'Socket.io', 'Tailwind'],
-            link: '#'
-        },
-        {
-            title: 'Portfolio Generator',
-            description: 'A tool for developers to generate stunning portfolio websites dynamically.',
-            tech: ['React', 'CSS3', 'Vite'],
+            title: 'Dimple',
+            description: 'A mental health and wellbeing project aimed at providing accessible psychological support and tracking.',
+            tech: ['Mental Health', 'React', 'Wellbeing'],
             link: '#'
         }
     ];

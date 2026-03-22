@@ -18,17 +18,17 @@ const About = () => {
                         </p>
                         <p>
                             When I'm not coding, I'm constantly learning about new technologies and finding creative ways
-                            to solve complex problems. Let's build something amazing together!
+                            to solve complex problems. I have learned AI fluency with Anthropic and have a strong passion for innovation—I have participated in 5 hackathons and won 3rd prize in one of them! Let's build something amazing together!
                         </p>
                     </div>
                     <div className="about-stats animate-fade-in delay-200">
                         <div className="stat-card glass-panel">
-                            <h3 className="stat-number text-gradient">2+</h3>
-                            <p className="stat-label">Years of Focus</p>
+                            <h3 className="stat-number text-gradient">5</h3>
+                            <p className="stat-label">Hackathons</p>
                         </div>
                         <div className="stat-card glass-panel">
-                            <h3 className="stat-number text-gradient">10+</h3>
-                            <p className="stat-label">Projects Completed</p>
+                            <h3 className="stat-number text-gradient">3rd</h3>
+                            <p className="stat-label">Prize Won</p>
                         </div>
                         <div className="stat-card glass-panel">
                             <h3 className="stat-number text-gradient">100%</h3>
