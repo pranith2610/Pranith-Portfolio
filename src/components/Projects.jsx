@@ -19,6 +19,12 @@ const Projects = () => {
             description: 'A mental health and wellbeing project aimed at providing accessible psychological support and tracking.',
             tech: ['Mental Health', 'React', 'Wellbeing'],
             link: '#'
+        },
+        {
+            title: 'SkillSwap',
+            description: 'A peer-to-peer skill sharing platform that connects users looking to exchange knowledge and learn new skills.',
+            tech: ['React', 'Node.js', 'WebRTC'],
+            link: '#'
         }
     ];
 
