@@ -1,0 +1,62 @@
+.app-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary), var(--accent-tertiary));
+  transform-origin: 0%;
+  z-index: 1000;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+/* Background Glow Effects */
+.bg-glow {
+  position: fixed;
+  width: 50vw;
+  height: 50vw;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.bg-glow.purple {
+  top: -10%;
+  right: -10%;
+  background: var(--accent-primary);
+  animation: float-glow 20s infinite alternate;
+}
+
+.bg-glow.blue {
+  bottom: -10%;
+  left: -10%;
+  background: var(--accent-secondary);
+  animation: float-glow 25s infinite alternate-reverse;
+}
+
+@keyframes float-glow {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(5%, 5%) scale(1.1); }
+  100% { transform: translate(-5%, -5%) scale(0.9); }
+}
+
+section {
+  padding: var(--section-padding);
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 4rem 0;
+  }
+}

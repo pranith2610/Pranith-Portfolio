@@ -1,0 +1,38 @@
+﻿
+> antigravity-portfolio@0.0.0 lint
+> eslint .
+
+
+C:\Users\Asus\Videos\the-projects\the projects\internship\antigravity-portfolio\src\App.jsx
+   1:17  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+  12:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u     no-unused-vars
+
+C:\Users\Asus\Videos\the-projects\the projects\internship\antigravity-portfolio\src\components\About.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\the-projects\the projects\internship\antigravity-portfolio\src\components\Achievements.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\the-projects\the projects\internship\antigravity-portfolio\src\components\Contact.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\the-projects\the projects\internship\antigravity-portfolio\src\components\Experience.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\the-projects\the projects\internship\antigravity-portfolio\src\components\Hero.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\the-projects\the projects\internship\antigravity-portfolio\src\components\Navbar.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\the-projects\the projects\internship\antigravity-portfolio\src\components\Projects.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\the-projects\the projects\internship\antigravity-portfolio\src\components\Skills.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Asus\Videos\the-projects\the projects\internship\antigravity-portfolio\src\components\Stats.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+Γ£û 11 problems (11 errors, 0 warnings)
+
