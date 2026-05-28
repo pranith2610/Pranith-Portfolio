@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .app-container {
   position: relative;
   min-height: 100vh;
@@ -59,4 +60,27 @@ section {
   section {
     padding: 4rem 0;
   }
+=======
+/* Main app layout styles */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+section {
+  padding: 8rem 0;
+  position: relative;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  font-weight: 700;
+>>>>>>> 0d33b0d39998157bab154852986aa598ca461c07
 }

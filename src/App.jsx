@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -67,6 +68,31 @@ function App() {
       <div className="bg-glow blue" />
     </div>
   );
+=======
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import './App.css';
+
+function App() {
+  return (
+    <div className="app-container">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  )
+>>>>>>> 0d33b0d39998157bab154852986aa598ca461c07
 }
 
 export default App;

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import { personalInfo } from '../data/portfolioData';
 import { Heart } from 'lucide-react';
@@ -24,6 +25,24 @@ const Footer = () => {
       </div>
     </footer>
   );
+=======
+import './Footer.css';
+
+const Footer = () => {
+    return (
+        <footer className="footer">
+            <div className="container">
+                <div className="footer-content">
+                    <div className="footer-logo text-gradient">PK.</div>
+                    <p className="footer-text">Built with React, Vanilla CSS, and passion.</p>
+                    <div className="footer-copyright">
+                        &copy; {new Date().getFullYear()} Pranith Kumar. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    );
+>>>>>>> 0d33b0d39998157bab154852986aa598ca461c07
 };
 
 export default Footer;
